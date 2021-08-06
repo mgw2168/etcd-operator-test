@@ -1,0 +1,8 @@
+apiVersion: etcd.mgw2168.io/v1alpha1
+kind: EtcdCluster
+metadata:
+  name: sample
+spec:
+  # Add fields here
+  size: 3
+  image: snych/etcd:v3.4.13
